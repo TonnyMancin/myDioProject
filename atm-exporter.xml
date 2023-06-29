@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10002</projectId>
+    <projectKey>SWAG1</projectKey>
+    <exportDate>2023-06-29 09:21:07 UTC</exportDate>
+    <folders>
+        <folder fullPath="Login" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="91964548" key="SWAG1-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Tonny Matheus Mancin Souza</createdBy>
+            <createdOn>2023-06-29 07:40:37 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente sem cadastro deseja criar uma conta]]></name>
+            <objective><![CDATA[Verificar funcionalidade de login]]></objective>
+            <owner>609be9a320ad1b0070e14206</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de login
+
+And não esteja cadastrado no sistema
+
+When clicar em "criar conta"
+
+Then será redirecionado para uma tela de criação de nova conta.]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="91964798" key="SWAG1-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Tonny Matheus Mancin Souza</createdBy>
+            <createdOn>2023-06-29 07:52:18 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Funcionalidade de login]]></name>
+            <owner>609be9a320ad1b0070e14206</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters>
+                <parameter index="0">
+                    <defaultValue><![CDATA[172.17.25.54]]></defaultValue>
+                    <name><![CDATA[Servidor QA]]></name>
+                </parameter>
+            </parameters>
+            <testDataWrapper/>
+            <testScript type="plain">
+                <details><![CDATA[<ol><li><p>Cliente sem cadastro deseja cria uma conta</p></li><li><p>Cliente sem cadastro tenta fazer login</p></li><li><p>Cliente com cadastro informa dados incorretos de acesso</p></li></ol>]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
